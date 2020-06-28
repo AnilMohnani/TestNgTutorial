@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteDemo">
+  <test thread-count="5" name="TestDemo">
+    <classes>
+      <class name="tests.demo1"/>
+      <class name="tests.demo2"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Cricket">
+    <classes>
+      <class name="cricbuzz.Team1"/>
+      <class name="cricbuzz.Team2"/>
+    </classes>
+  </test> 
+</suite> 

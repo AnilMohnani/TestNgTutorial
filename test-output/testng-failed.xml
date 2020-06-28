@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteDemo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Shaadi(failed)">
+    <classes>
+      <class name="Shaadi.com.LoginProvider">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- Shaadi.com.LoginProvider -->
+    </classes>
+  </test> <!-- Shaadi(failed) -->
+</suite> <!-- Failed suite [SuiteDemo] -->
